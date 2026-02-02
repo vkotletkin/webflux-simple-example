@@ -10,7 +10,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-
+// https://languagetool.org/download/ngram-data/untested/ngram-ru-20150914.zip
         JLanguageTool langTool = new JLanguageTool(Languages.getLanguageForShortCode("ru"));
 //        langTool.activateLanguageModelRules(Path.of("src/main/resources/ngram-ru-20150914").toFile());
         // comment in to use statistical ngram data:
